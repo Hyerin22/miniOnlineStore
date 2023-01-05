@@ -1,9 +1,14 @@
 body {
   height: 100vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.dark-mode{
+  background-color: #292929;
 }
 
 .logo{
@@ -28,6 +33,23 @@ body {
   width: 50px;
   height: auto;
 }
+.toggle{
+  margin-left: 35%;
+  border-radius: 50%;
+  background-color: rgba(34, 33, 33, 0.932);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.55);
+}
+
+.toogle-darkMode {
+  background-color:aliceblue;
+  box-shadow: 2px 2px 3px 0px rgba(255, 255, 255, 0.676);
+}
+
+.toggle > img{
+  padding: 5px;
+  width: 25px;
+  height: auto;
+}
 
 .colorBttn{
   color: black;
@@ -37,14 +59,29 @@ body {
   border-radius: 5px;
 }
 
-.bttn:nth-child(4){
+.colorBttn-darkMode {
+  color: white;
+}
+
+.blue{
   background-color: skyblue;
 }
-.bttn:nth-child(5){
+
+.blue-darkMode{
+  background-color: #3CB0EC;
+}
+.yellow{
   background-color: gold;
 }
-.bttn:nth-child(6){
+.yellow-darkMode{
+  background-color: #FBE48A;
+}
+
+.pink{
   background-color: pink;
+}
+.pink-darkMode{
+  background-color: #FF9EAE;
 }
 
 .bttn:hover,
@@ -63,11 +100,13 @@ body {
 .list {
   display: flex;
   align-items: center;
-  background-color:aliceblue;
+  background-color: #F1F3F4;
+  color: black;
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 10px 0 0 10px;
 }
+
 .list-thumnail{
   width: 50px;
   height: 50px;
@@ -75,3 +114,4 @@ body {
 .list-desc{
   margin-left: 10px;
 }
+
