@@ -10,25 +10,25 @@
 
 #### Result
 ##### Main (All clothes)
-<img src="img/All-clothes.png" width="30%" height="30%" alt="mainScreen" />
+<img src="img/All-clothes.png" width="60%" height="60%" alt="mainScreen" />
 
 ##### Filter by shirt
-<img src="img/filter-by-shirt.png" width="30%" height="30%" alt="shirt" />
+<img src="img/filter-by-shirt.png" width="60%" height="60%" alt="shirt" />
 
 ##### Filter by pants
-<img src="img/filter-by-pants.png" width="30%" height="30%" alt="pants" />
+<img src="img/filter-by-pants.png" width="60%" height="60%" alt="pants" />
 
 ##### Filter by skirt
-<img src="img/filter-by-skirt.png" width="30%" height="30%" alt="skirt" />
+<img src="img/filter-by-skirt.png" width="60%" height="60%" alt="skirt" />
 
 ##### Filter by blue
-<img src="img/filter-by-blue.png" width="30%" height="30%" alt="blue" />
+<img src="img/filter-by-blue.png" width="60%" height="60%" alt="blue" />
 
 ##### Filter by yellow
-<img src="img/filter-by-yellow.png" width="30%" height="30%" alt="yellow" />
+<img src="img/filter-by-yellow.png" width="60%" height="60%" alt="yellow" />
 
 ##### Filter by pink
-<img src="img/filter-by-pink.png" width="30%" height="30%" alt="pink" />
+<img src="img/filter-by-pink.png" width="60%" height="60%" alt="pink" />
 
 ##### Dark mode
-<img src="img/dark-mode.png" width="30%" height="30%" alt="darkMode" />
+<img src="img/dark-mode.png" width="60%" height="60%" alt="darkMode" />
