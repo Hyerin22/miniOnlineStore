@@ -21,6 +21,7 @@ function createHTMLString(list) {
   `;
 }
 
+// filtering
 function onBttnClick(event, data) {
   // console.log("key is " + event.target.dataset.key)
   // console.log("value is " + event.target.dataset.value)
@@ -45,6 +46,8 @@ function setEventListeners(data) {
   buttons.addEventListener("click", (event) => onBttnClick(event, data));
 }
 
+
+// Darkmode icon img change
 function chngimg(){
   var toggleImg = document.querySelector(".switchMode").src
   if (toggleImg.indexOf('Moon.png') != -1) {
@@ -54,6 +57,7 @@ function chngimg(){
   }
 }
 
+// Dark mode
 function darkMode() {
   var background = document.body;
   background.classList.toggle("dark-mode");
@@ -65,6 +69,7 @@ function darkMode() {
   document.querySelector(".yellow").classList.toggle("yellow-darkMode");
   document.querySelector(".pink").classList.toggle("pink-darkMode");
 }
+
 // main
 loadData()
   .then((data) => {
